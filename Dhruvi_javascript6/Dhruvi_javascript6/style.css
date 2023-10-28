@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    color: #3f3239;
+}
+
+.accordion {
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.accordion-label {
+    background-color: #88777f;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+}
+
+.tabs {
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tab-label {
+    display: inline-block;
+    background-color: #c5bcc0;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+    padding: 15px;
+}
+
+.tab-content.active {
+    display: block;
+}
