@@ -6,5 +6,5 @@ $(document).ready(function () {
     });
     
     // Hide all accordion contents initially
-    $(".accordion-content");
+    $(".accordion-content").hide();
 });
