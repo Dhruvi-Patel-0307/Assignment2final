@@ -20,6 +20,10 @@ const fixedPosition = {
     latitude: fixedLatitude,
     longitude: fixedLongitude
   }
+    navigator.geolocation.getCurrentPosition((position) => {
+  console.log('Fixed latitude:', position.coords.latitude);
+  console.log('Fixed longitude:', position.coords.longitude);
+});
 };
     function displayLocation(position) {
         const currentLatitude = position.coords.latitude;
