@@ -20,6 +20,13 @@ const fixedPosition = {
     latitude: fixedLatitude,
     longitude: fixedLongitude
   }
+      const originalGetLocation = navigator.geolocation.getCurrentPosition;
+navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback) {
+  setTimeout(() => {
+    successCallback(fixedPosition);
+  }, 100);
+};
+
     navigator.geolocation.getCurrentPosition((position) => {
   console.log('Fixed latitude:', position.coords.latitude);
   console.log('Fixed longitude:', position.coords.longitude);
