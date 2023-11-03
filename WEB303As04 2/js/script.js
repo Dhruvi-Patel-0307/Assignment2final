@@ -11,27 +11,7 @@ $(function () {
         return;
     }
    
-const fixedLatitude = 35.7128; 
-const fixedLongitude = -72.0060;
 
-
-const fixedPosition = {
-  coords: {
-    latitude: fixedLatitude,
-    longitude: fixedLongitude
-  }
-      const originalGetLocation = navigator.geolocation.getCurrentPosition;
-navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback) {
-  setTimeout(() => {
-    successCallback(fixedPosition);
-  }, 100);
-};
-
-    navigator.geolocation.getCurrentPosition((position) => {
-  console.log('Fixed latitude:', position.coords.latitude);
-  console.log('Fixed longitude:', position.coords.longitude);
-});
-};
     function displayLocation(position) {
         const currentLatitude = position.coords.latitude;
         const currentLongitude = position.coords.longitude;
