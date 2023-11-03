@@ -10,7 +10,17 @@ $(function () {
         $('#locationhere').text("Geolocation is not supported by your browser.");
         return;
     }
-    
+   
+const fixedLatitude = 35.7128; 
+const fixedLongitude = -72.0060;
+
+
+const fixedPosition = {
+  coords: {
+    latitude: fixedLatitude,
+    longitude: fixedLongitude
+  }
+};
     function displayLocation(position) {
         const currentLatitude = position.coords.latitude;
         const currentLongitude = position.coords.longitude;
