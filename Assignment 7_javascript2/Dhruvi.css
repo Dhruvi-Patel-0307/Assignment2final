@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    color: #3f3239;
+}
+
+#charactersTable {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+#charactersTable th, #charactersTable td {
+    border: 1px solid #8a8383;
+    padding: 8px;
+    text-align: left;
+}
+
+#charactersTable th {
+    background-color: #40266c;
+    color: white;
+    cursor: pointer;
+}
+
+#charactersTable th .chevron {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#charactersTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#charactersTable tbody tr:hover {
+    background-color: #ddd;
+}

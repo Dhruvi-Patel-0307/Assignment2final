@@ -1,0 +1,10 @@
+[
+  {"firstName": "Shinchan", "lastName": "Nohara", "age": 10, "date": "2013-4-01"},
+  {"firstName": "Doremon", "lastName": "Patel", "age": 9, "date": "2014-1-11"},
+  {"firstName": "Pokemon", "lastName": "jain", "age": 46, "date": "2011-7-2"},
+  {"firstName": "Ninja Hathodi", "lastName": "gupta", "age": 19, "date": "2002-9-1"},
+  {"firstName": "naruto", "lastName": "chaul", "age": 78, "date": "1968-4-19"},
+  {"firstName": "Brahm Rakshas", "lastName": "patidar", "age": 24, "date": "1989-5-9"},
+  {"firstName": "Doctor jojo", "lastName": "piter", "age": 76, "date": "1955-08-19"},
+  {"firstName": "kirmada", "lastName": "sharma", "age": 34, "date": "1972-3-43"}
+]
