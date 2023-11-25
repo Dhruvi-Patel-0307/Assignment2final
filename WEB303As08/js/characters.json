@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "Shinchan",
+        "lastName": "Nohara",
+        "age": 10,
+        "occupation": "Occupation1",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "Doremon",
+        "lastName": "Patel",
+        "age": 9,
+        "occupation": "Occupation2",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "Pokemon",
+        "lastName": "jain",
+        "age": 46,
+        "occupation": "Occupation3",
+        "show": "ShowName"
+    }
+]

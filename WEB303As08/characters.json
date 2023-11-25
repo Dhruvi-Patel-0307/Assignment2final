@@ -1,0 +1,58 @@
+[
+    {
+        "firstName": "Shinchan",
+        "lastName": "Nohara",
+        "age": 10,
+        "occupation": "Occupation1",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "Doremon",
+        "lastName": "Patel",
+        "age": 9,
+        "occupation": "Occupation2",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "Pokemon",
+        "lastName": "jain",
+        "age": 46,
+        "occupation": "Occupation3",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "Ninja Hathodi",
+        "lastName": "gupta",
+        "age": 19,
+        "occupation": "Occupation4",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "naruto",
+        "lastName": "chaul",
+        "age": 78,
+        "occupation": "Occupation5",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "Brahm Rakshas",
+        "lastName": "patidar",
+        "age": 24,
+        "occupation": "Occupation6",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "Doctor jojo",
+        "lastName": "piter",
+        "age": 76,
+        "occupation": "Occupation7",
+        "show": "ShowName"
+    },
+    {
+        "firstName": "kirmada",
+        "lastName": "sharma",
+        "age": 34,
+        "occupation": "Occupation8",
+        "show": "ShowName"
+    }
+]
